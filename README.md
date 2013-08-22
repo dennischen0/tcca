@@ -1,3 +1,3 @@
 # TCCA Application
 
-This is a rails app.
+This is going to be the app for TCCA Camp 2014.
