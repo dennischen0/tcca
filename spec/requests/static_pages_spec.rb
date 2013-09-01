@@ -12,6 +12,9 @@ describe "Static pages" do
       visit '/static_pages/home'
       expect(page).to have_title("TCCA")
     end
-
+    it "should contain the pictures" do
+      visit '/static_pages/home'
+      expect(page).to have_content('MichaelAranda.jpg')
+    end
   end
 end
